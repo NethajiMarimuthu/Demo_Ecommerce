@@ -4,6 +4,7 @@ import { CartContext } from '../../context/CartContext'
 
 const ProductItem = ({ Id, Name, Image, Amount, Company }) => {
     const{addCart,cartItem,removeCart}=useContext(CartContext)
+    
 
 
     return (

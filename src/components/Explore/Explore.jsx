@@ -8,10 +8,7 @@ import { Link } from 'react-router-dom'
 const Explore = () => {
     // const [product]=useState(data)
     const prods = products.filter(data => data.category === "Discount");
-
    
-    
-        
   return (
     <>
         <div>
