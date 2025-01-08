@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap');
+
+.discount{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.head1{
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+@media(max-width:554px){
+    .head1{
+        font-size: 20px;
+        margin-left: 100px;
+    }
+}
