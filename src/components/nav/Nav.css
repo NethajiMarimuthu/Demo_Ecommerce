@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.navContain{
+    width: 100vw;
+    height: 50px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px 0px 0px;
+    position: sticky;
+    z-index: 1000;
+    top: 0;
+}
+.logo img{
+    width: 280px;
+    height: 200px;
+}
+.navContain ul{
+    display: flex;
+    gap: 20px;
+}
+.navContain ul li{
+    list-style: none;
+}
+.navContain ul li a{
+    text-decoration: none;
+    color: grey;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.login{
+    display: flex;
+    gap: 40px;
+}
+.login .cart{
+    font-size: 30px;
+    margin-top: 5px;
+}
+.login button{
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: rgb(184, 182, 182);
+    border: none;
+    font-size:17px ;
+    margin-right: 20px;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.navContain .active{
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+@media(max-width:554px){
+    .navContain{
+        width: 200x;
+    }
+}

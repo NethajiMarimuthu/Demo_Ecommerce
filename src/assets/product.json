@@ -1,0 +1,734 @@
+{
+  "products": [
+    {
+      "id": "M001",
+      "name": "Men's Running Shoes",
+      "description": "Comfortable and lightweight running shoes designed for long-distance running.",
+      "amount": "$89",
+      "company": "Nike",
+      "category": "Men"
+    },
+    {
+      "id": "M002",
+      "name": "Leather Wallet",
+      "description": "High-quality leather wallet with multiple card slots and a money clip.",
+      "amount": "$49",
+      "company": "Gucci",
+      "category": "Men"
+    },
+    {
+      "id": "M003",
+      "name": "Cotton T-shirt",
+      "description": "Soft and breathable cotton T-shirt in a variety of colors.",
+      "amount": "$19",
+      "company": "Uniqlo",
+      "category": "Men"
+    },
+    {
+      "id": "M004",
+      "name": "Sunglasses",
+      "description": "Stylish sunglasses with UV protection.",
+      "amount": "$59",
+      "company": "Ray-Ban",
+      "category": "Men"
+    },
+    {
+      "id": "M005",
+      "name": "Leather Jacket",
+      "description": "Classic leather jacket with a slim fit design.",
+      "amount": "$149",
+      "company": "Levi's",
+      "category": "Men"
+    },
+    {
+      "id": "M006",
+      "name": "Jogger Pants",
+      "description": "Comfortable jogger pants made with a soft, stretchy fabric.",
+      "amount": "$39",
+      "company": "Adidas",
+      "category": "Men"
+    },
+    {
+      "id": "M007",
+      "name": "Casual Sneakers",
+      "description": "Casual sneakers with cushioned support for all-day wear.",
+      "amount": "$79",
+      "company": "Puma",
+      "category": "Men"
+    },
+    {
+      "id": "M008",
+      "name": "Slim Fit Jeans",
+      "description": "Slim fit denim jeans designed for a modern, stylish look.",
+      "amount": "$59",
+      "company": "Wrangler",
+      "category": "Men"
+    },
+    {
+      "id": "M009",
+      "name": "Backpack",
+      "description": "Spacious backpack with multiple compartments and a laptop sleeve.",
+      "amount": "$39",
+      "company": "North Face",
+      "category": "Men"
+    },
+    {
+      "id": "M010",
+      "name": "Sports Watch",
+      "description": "Water-resistant sports watch with fitness tracking features.",
+      "amount": "$129",
+      "company": "Garmin",
+      "category": "Men"
+    },
+    {
+      "id": "W001",
+      "name": "Women's Summer Dress",
+      "description": "Light and breezy summer dress perfect for warm weather outings.",
+      "amount": "$59",
+      "company": "Zara",
+      "category": "Women"
+    },
+    {
+      "id": "W002",
+      "name": "High Heels",
+      "description": "Elegant pair of high heels with a comfortable fit, perfect for formal occasions.",
+      "amount": "$120",
+      "company": "Louboutin",
+      "category": "Women"
+    },
+    {
+      "id": "W003",
+      "name": "Blouse",
+      "description": "Elegant blouse made with silky material and detailed stitching.",
+      "amount": "$39",
+      "company": "H&M",
+      "category": "Women"
+    },
+    {
+      "id": "W004",
+      "name": "Pencil Skirt",
+      "description": "Stylish pencil skirt perfect for office or formal wear.",
+      "amount": "$49",
+      "company": "Banana Republic",
+      "category": "Women"
+    },
+    {
+      "id": "W005",
+      "name": "Cashmere Sweater",
+      "description": "Soft and luxurious cashmere sweater ideal for layering in colder months.",
+      "amount": "$149",
+      "company": "J.Crew",
+      "category": "Women"
+    },
+    {
+      "id": "W006",
+      "name": "Luxe Scarf",
+      "description": "Warm and fashionable scarf made from premium wool.",
+      "amount": "$59",
+      "company": "Burberry",
+      "category": "Women"
+    },
+    {
+      "id": "W007",
+      "name": "Satin Pajama Set",
+      "description": "Luxurious satin pajama set perfect for lounging or sleeping.",
+      "amount": "$79",
+      "company": "Victoria's Secret",
+      "category": "Women"
+    },
+    {
+      "id": "W008",
+      "name": "Floral Print Dress",
+      "description": "Floral print dress designed for a summer party or casual outing.",
+      "amount": "$49",
+      "company": "Forever 21",
+      "category": "Women"
+    },
+    {
+      "id": "W009",
+      "name": "Handbag",
+      "description": "Stylish handbag with ample storage space and gold accents.",
+      "amount": "$199",
+      "company": "Michael Kors",
+      "category": "Women"
+    },
+    {
+      "id": "W010",
+      "name": "Denim Jacket",
+      "description": "Chic denim jacket with distressed details.",
+      "amount": "$69",
+      "company": "Levi's",
+      "category": "Women"
+    },
+    {
+      "id": "W011",
+      "name": "Flats",
+      "description": "Comfortable flats perfect for both casual and formal wear.",
+      "amount": "$39",
+      "company": "Steve Madden",
+      "category": "Women"
+    },
+    {
+      "id": "W012",
+      "name": "Tote Bag",
+      "description": "Spacious tote bag with a simple and elegant design.",
+      "amount": "$59",
+      "company": "Kate Spade",
+      "category": "Women"
+    },
+    {
+      "id": "W013",
+      "name": "Bikini",
+      "description": "Two-piece bikini set available in multiple colors and sizes.",
+      "amount": "$39",
+      "company": "Victoria's Secret",
+      "category": "Women"
+    },
+    {
+      "id": "W014",
+      "name": "Sunglasses",
+      "description": "Chic sunglasses with UV protection.",
+      "amount": "$89",
+      "company": "Ray-Ban",
+      "category": "Women"
+    },
+    {
+      "id": "W015",
+      "name": "Cardigan",
+      "description": "Cozy cardigan made from soft cotton and wool blend.",
+      "amount": "$49",
+      "company": "American Eagle",
+      "category": "Women"
+    },
+    {
+      "id": "W016",
+      "name": "Skater Skirt",
+      "description": "Fun and playful skater skirt with a flattering fit.",
+      "amount": "$34",
+      "company": "ASOS",
+      "category": "Women"
+    },
+    {
+      "id": "W017",
+      "name": "Over-the-Knee Boots",
+      "description": "Elegant over-the-knee boots perfect for colder months.",
+      "amount": "$129",
+      "company": "Aldo",
+      "category": "Women"
+    },
+    {
+      "id": "W018",
+      "name": "Chiffon Blouse",
+      "description": "Light and airy chiffon blouse with feminine detailing.",
+      "amount": "$39",
+      "company": "Zara",
+      "category": "Women"
+    },
+    {
+      "id": "W019",
+      "name": "Puffer Jacket",
+      "description": "Stylish and warm puffer jacket for the winter season.",
+      "amount": "$99",
+      "company": "Patagonia",
+      "category": "Women"
+    },
+    {
+      "id": "W020",
+      "name": "Peacoat",
+      "description": "Timeless peacoat with a double-breasted design.",
+      "amount": "$129",
+      "company": "Burberry",
+      "category": "Women"
+    },
+    {
+      "id": "K001",
+      "name": "Toy Train Set",
+      "description": "Colorful toy train set with multiple tracks and interactive pieces.",
+      "amount": "$29",
+      "company": "Lego",
+      "category": "Kids"
+    },
+    {
+      "id": "K002",
+      "name": "Children's Backpack",
+      "description": "Durable and fun backpack with cartoon characters for school or play.",
+      "amount": "$25",
+      "company": "Disney",
+      "category": "Kids"
+    },
+    {
+      "id": "K003",
+      "name": "Building Blocks",
+      "description": "Set of colorful building blocks for creative play.",
+      "amount": "$19",
+      "company": "Mega Bloks",
+      "category": "Kids"
+    },
+    {
+      "id": "K004",
+      "name": "Action Figure Set",
+      "description": "Action figure set featuring superhero characters.",
+      "amount": "$24",
+      "company": "Mattel",
+      "category": "Kids"
+    },
+    {
+      "id": "K005",
+      "name": "Stuffed Animal",
+      "description": "Soft and cuddly stuffed animal for kids of all ages.",
+      "amount": "$15",
+      "company": "Ty",
+      "category": "Kids"
+    },
+    {
+      "id": "K006",
+      "name": "Remote Control Car",
+      "description": "Fast remote-controlled car for outdoor fun.",
+      "amount": "$39",
+      "company": "Hot Wheels",
+      "category": "Kids"
+    },
+    {
+      "id": "K007",
+      "name": "Board Game",
+      "description": "Classic board game for family fun.",
+      "amount": "$19",
+      "company": "Hasbro",
+      "category": "Kids"
+    },
+    {
+      "id": "K008",
+      "name": "Trampoline",
+      "description": "Small trampoline for kids to jump and play safely.",
+      "amount": "$69",
+      "company": "Little Tikes",
+      "category": "Kids"
+    },
+    {
+      "id": "K009",
+      "name": "Water Gun",
+      "description": "Fun and exciting water gun for outdoor water fights.",
+      "amount": "$14",
+      "company": "Nerf",
+      "category": "Kids"
+    },
+    {
+      "id": "K010",
+      "name": "Toy Drum Set",
+      "description": "Beginner-friendly drum set for young aspiring musicians.",
+      "amount": "$49",
+      "company": "VTech",
+      "category": "Kids"
+    },
+    {
+      "id": "K011",
+      "name": "Skateboard",
+      "description": "Compact skateboard perfect for young riders.",
+      "amount": "$39",
+      "company": "Tony Hawk",
+      "category": "Kids"
+    },
+    {
+      "id": "K012",
+      "name": "Bicycle",
+      "description": "Kids' bicycle with training wheels for beginners.",
+      "amount": "$99",
+      "company": "Schwinn",
+      "category": "Kids"
+    },
+    {
+      "id": "K013",
+      "name": "Play Kitchen Set",
+      "description": "Interactive play kitchen set for pretend cooking.",
+      "amount": "$79",
+      "company": "KidKraft",
+      "category": "Kids"
+    },
+    {
+      "id": "K014",
+      "name": "Toy Robot",
+      "description": "Interactive toy robot with motion and sound effects.",
+      "amount": "$34",
+      "company": "Fisher Price",
+      "category": "Kids"
+    },
+    {
+      "id": "K015",
+      "name": "Jigsaw Puzzle",
+      "description": "Fun jigsaw puzzle for kids to solve and enjoy.",
+      "amount": "$12",
+      "company": "Ravensburger",
+      "category": "Kids"
+    },
+    {
+      "id": "K016",
+      "name": "Swing Set",
+      "description": "Outdoor swing set for kids to enjoy hours of fun.",
+      "amount": "$129",
+      "company": "Backyard Discovery",
+      "category": "Kids"
+    },
+    {
+      "id": "K017",
+      "name": "Play-Doh Set",
+      "description": "Creative Play-Doh set for children to create fun shapes.",
+      "amount": "$9",
+      "company": "Hasbro",
+      "category": "Kids"
+    },
+    {
+      "id": "K018",
+      "name": "Bubble Machine",
+      "description": "Automatic bubble machine for endless fun.",
+      "amount": "$19",
+      "company": "Gazillion",
+      "category": "Kids"
+    },
+    {
+      "id": "K019",
+      "name": "Riding Toy",
+      "description": "Ride-on toy car for toddlers and young children.",
+      "amount": "$49",
+      "company": "Fisher Price",
+      "category": "Kids"
+    },
+    {
+      "id": "K020",
+      "name": "Toy Train",
+      "description": "Interactive toy train set for young kids.",
+      "amount": "$34",
+      "company": "Thomas & Friends",
+      "category": "Kids"
+    },
+    {
+      "id": "DM001",
+      "name": "Men's Running Shoes",
+      "description": "Comfortable and lightweight running shoes designed for long-distance running.",
+      "amount": "$89.99",
+      "company": "Nike",
+      "discount_percentage": "10%",
+      "discount_amount": "$8.99",
+      "image": "./dis_m1.jpg",
+      "category": "Discount"
+    },
+    {
+      "id": "DM002",
+      "name": "Leather Wallet",
+      "description": "High-quality leather wallet with multiple card slots and a money clip.",
+      "amount": "$49.99",
+      "company": "Gucci",
+      "discount_percentage": "15%",
+      "discount_amount": "$7.50",
+      "image": "./dis_m2.jpg",
+      "category": "Discount"
+    },
+    {
+      "id": "DM003",
+      "name": "Men's Casual T-Shirt",
+      "description": "Comfortable cotton t-shirt perfect for casual wear.",
+      "amount": "$19.99",
+      "company": "H&M",
+      "discount_percentage": "10%",
+      "discount_amount": "$2.00",
+      "image": "./dis_m3.jpg",
+      "category": "Discount"
+    },
+    {
+      "id": "DM004",
+      "name": "Men's Jeans",
+      "description": "Durable and stylish denim jeans for everyday wear.",
+      "amount": "$59.99",
+      "company": "Levi's",
+      "discount_percentage": "20%",
+      "discount_amount": "$12.00",
+      "image": "./dis_m4.jpg",
+      "category": "Discount"
+    },
+    {
+      "id": "DM005",
+      "name": "Sports Watch",
+      "description": "Smart sports watch with fitness tracking features.",
+      "amount": "$129.99",
+      "company": "Garmin",
+      "discount_percentage": "15%",
+      "discount_amount": "$19.50",
+      "image": "./dis_m5.jpg",
+      "category": "Discount"
+    },
+    {
+      "id": "DM006",
+      "name": "Men's Jacket",
+      "description": "Warm jacket perfect for the winter season.",
+      "amount": "$89.99",
+      "company": "Columbia",
+      "discount_percentage": "10%",
+      "discount_amount": "$9.00",
+      "image": "./dis_m6.jpg",
+      "category": "Discount"
+    },
+    {
+      "id": "DM007",
+      "name": "Men's Running Shorts",
+      "description": "Lightweight running shorts designed for comfort and breathability.",
+      "amount": "$29.99",
+      "company": "Nike",
+      "discount_percentage": "15%",
+      "discount_amount": "$4.50",
+      "image": "./dis_m7.jpg",
+      "category": "Discount"
+    },
+    {
+      "id": "DM008",
+      "name": "Men's Sunglasses",
+      "description": "Stylish sunglasses offering 100% UV protection.",
+      "amount": "$99.99",
+      "company": "Ray-Ban",
+      "discount_percentage": "20%",
+      "discount_amount": "$20.00",
+      "image": "./dis_m8.jpg",
+      "category": "Discount"
+    },
+    {
+      "id": "DM009",
+      "name": "Men's Sneakers",
+      "description": "Trendy sneakers for casual and athletic wear.",
+      "amount": "$79.99",
+      "company": "Adidas",
+      "discount_percentage": "10%",
+      "discount_amount": "$8.00",
+      "image": "./dis_m9.jpg",
+      "category": "Discount"
+    },
+    {
+      "id": "DM010",
+      "name": "Men's Hoodie",
+      "description": "Cozy hoodie with a comfortable fit for colder weather.",
+      "amount": "$39.99",
+      "company": "Under Armour",
+      "discount_percentage": "15%",
+      "discount_amount": "$6.00",
+      "image": "./dis_m10.jpg",
+      "category": "Discount"
+    },
+    {
+      "id": "DW001",
+      "name": "Women's Summer Dress",
+      "description": "Light and breezy summer dress perfect for warm weather outings.",
+      "amount": "$59.99",
+      "company": "Zara",
+      "discount_percentage": "20%",
+      "discount_amount": "$12.00",
+      "image": "./dis_w1.jpg",
+      "category": "Discount"
+    },
+    {
+      "id": "DW002",
+      "name": "High Heels",
+      "description": "Elegant pair of high heels with a comfortable fit, perfect for formal occasions.",
+      "amount": "$120.00",
+      "company": "Louboutin",
+      "discount_percentage": "25%",
+      "discount_amount": "$30.00",
+      "image": "./dis_w2.jpg",
+      "category": "Discount"
+    },
+    {
+      "id": "DW003",
+      "name": "Women's Leather Handbag",
+      "description": "Stylish and spacious leather handbag for everyday use.",
+      "amount": "$139.99",
+      "company": "Michael Kors",
+      "discount_percentage": "10%",
+      "discount_amount": "$14.00",
+      "image": "./dis_w3.jpg",
+      "category": "Discount"
+    },
+    {
+      "id": "DW004",
+      "name": "Women’s Sunglasses",
+      "description": "Chic sunglasses with a stylish frame and UV protection.",
+      "amount": "$79.99",
+      "company": "Prada",
+      "discount_percentage": "15%",
+      "discount_amount": "$12.00",
+      "image": "./dis_w4.jpg",
+      "category": "Discount"
+    },
+    {
+      "id": "DW005",
+      "name": "Women's Blouse",
+      "description": "Elegant blouse suitable for office wear or casual outings.",
+      "amount": "$39.99",
+      "company": "H&M",
+      "discount_percentage": "10%",
+      "discount_amount": "$4.00",
+      "image": "./dis_w5.jpg",
+      "category": "Discount"
+    },
+    {
+      "id": "DW006",
+      "name": "Women’s Watch",
+      "description": "Classy watch with a leather strap and minimalistic design.",
+      "amount": "$119.99",
+      "company": "Rolex",
+      "discount_percentage": "20%",
+      "discount_amount": "$24.00",
+      "image": "./dis_w6.jpg",
+      "category": "Discount"
+    },
+    {
+      "id": "DW007",
+      "name": "Women’s Skirt",
+      "description": "Stylish skirt perfect for formal events or casual wear.",
+      "amount": "$49.99",
+      "company": "Uniqlo",
+      "discount_percentage": "15%",
+      "discount_amount": "$7.50",
+      "image": "./dis_w7.jpg",
+      "category": "Discount"
+    },
+    {
+      "id": "D008",
+      "name": "Women's Boots",
+      "description": "Durable and fashionable boots for colder weather.",
+      "amount": "$89.99",
+      "company": "Timberland",
+      "discount_percentage": "20%",
+      "discount_amount": "$18.00",
+      "image": "./dis_w8.jpg",
+      "category": "Discount"
+    },
+    {
+      "id": "DW009",
+      "name": "Women’s Leggings",
+      "description": "Comfortable leggings for casual or workout wear.",
+      "amount": "$29.99",
+      "company": "Nike",
+      "discount_percentage": "10%",
+      "discount_amount": "$3.00",
+      "image": "./dis_w9.jpg",
+      "category": "Discount"
+    },
+    {
+      "id": "DW010",
+      "name": "Women’s Jacket",
+      "description": "Warm jacket for winter with a stylish design.",
+      "amount": "$79.99",
+      "company": "Columbia",
+      "discount_percentage": "10%",
+      "discount_amount": "$8.00",
+      "image": "./dis_w10.jpg",
+      "category": "Discount"
+    },
+    {
+      "id": "DK001",
+      "name": "Toy Train Set",
+      "description": "Colorful toy train set with multiple tracks and interactive pieces.",
+      "amount": "$29.99",
+      "company": "Lego",
+      "discount_percentage": "10%",
+      "discount_amount": "$3.00",
+      "image": "https://via.placeholder.com/150",
+      "category": "Discount"
+    },
+    {
+      "id": "DK002",
+      "name": "Children's Backpack",
+      "description": "Durable and fun backpack with cartoon characters for school or play.",
+      "amount": "$25.00",
+      "company": "Disney",
+      "discount_percentage": "15%",
+      "discount_amount": "$3.75",
+      "image": "https://via.placeholder.com/150",
+      "category": "Discount"
+    },
+    {
+      "id": "DK003",
+      "name": "Kids’ Board Game",
+      "description": "Fun and educational board game for family nights.",
+      "amount": "$19.99",
+      "company": "Hasbro",
+      "discount_percentage": "5%",
+      "discount_amount": "$1.00",
+      "image": "https://via.placeholder.com/150",
+      "category": "Discount"
+    },
+    {
+      "id": "DK004",
+      "name": "Children's Soccer Ball",
+      "description": "Durable and colorful soccer ball for kids.",
+      "amount": "$15.99",
+      "company": "Nike",
+      "discount_percentage": "10%",
+      "discount_amount": "$1.60",
+      "image": "https://via.placeholder.com/150",
+      "category": "Discount"
+    },
+    {
+      "id": "DK005",
+      "name": "Kids’ T-Shirt",
+      "description": "Soft cotton t-shirt with fun graphics.",
+      "amount": "$12.99",
+      "company": "Gap",
+      "discount_percentage": "5%",
+      "discount_amount": "$0.65",
+      "image": "https://via.placeholder.com/150",
+      "category": "Discount"
+    },
+    {
+      "id": "DK006",
+      "name": "Children’s Toy Set",
+      "description": "Building blocks toy set for imaginative play.",
+      "amount": "$39.99",
+      "company": "Lego",
+      "discount_percentage": "15%",
+      "discount_amount": "$6.00",
+      "image": "https://via.placeholder.com/150",
+      "category": "Discount"
+    },
+    {
+      "id": "DK007",
+      "name": "Kids’ Shoes",
+      "description": "Comfortable and stylish shoes for active kids.",
+      "amount": "$29.99",
+      "company": "Adidas",
+      "discount_percentage": "10%",
+      "discount_amount": "$3.00",
+      "image": "https://via.placeholder.com/150",
+      "category": "Discount"
+    },
+    {
+      "id": "DK008",
+      "name": "Children’s Puzzle",
+      "description": "Fun and educational puzzle for young minds.",
+      "amount": "$19.99",
+      "company": "Ravensburger",
+      "discount_percentage": "5%",
+      "discount_amount": "$1.00",
+      "image": "https://via.placeholder.com/150",
+      "category": "Discount"
+    },
+    {
+      "id": "DK009",
+      "name": "Kids’ Jacket",
+      "description": "Warm and stylish jacket for colder weather.",
+      "amount": "$49.99",
+      "company": "North Face",
+      "discount_percentage": "10%",
+      "discount_amount": "$5.00",
+      "image": "https://via.placeholder.com/150",
+      "category": "Discount"
+    },
+    {
+      "id": "DK010",
+      "name": "Children’s Hat",
+      "description": "Cute hat to keep kids warm during the winter.",
+      "amount": "$9.99",
+      "company": "Uniqlo",
+      "discount_percentage": "10%",
+      "discount_amount": "$1.00",
+      "image": "https://via.placeholder.com/150",
+      "category": "Discount"
+    }
+  ]
+}
