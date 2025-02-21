@@ -8,6 +8,8 @@ const ContextProvider = (props) => {
   const [price, setPrice] = useState("all");
   const [color,setColor]=useState("all")
   const [cart,setCart]=useState({})
+  const [total,setTotal]=useState(0)
+  const [like,setLike]=useState({})
 
   const handleCategory = (e) => {
     setCategory(e.target.value);
@@ -30,6 +32,12 @@ const ContextProvider = (props) => {
       }));
     }
   }
+  
+  const handleLike=(id)=>{
+    if(!like[id]){
+      setLike(prevItem=>({...prevItem,[id]:1}))
+    }
+  }
 
   const removeCart=(id)=>{
     if (cart[id]) {
@@ -41,8 +49,12 @@ const ContextProvider = (props) => {
     console.log(cart);  
   },[cart])
 
+  useEffect(()=>{
+    console.log(like);  
+  },[like])
+
   return (
-    <Context.Provider value={{ handleCategory, category, price,color,handlePrice,handleColor,addCart,removeCart,cart}}>
+    <Context.Provider value={{ handleCategory, category, price,color,handlePrice,handleColor,addCart,removeCart,cart,handleLike}}>
       {props.children}
     </Context.Provider>
   );

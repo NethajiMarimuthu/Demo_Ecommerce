@@ -15,7 +15,9 @@ const Nav = () => {
         <div className='flex space-x-2 text-2xl mt-4 md:mt-0'>
           <ul className='flex space-x-5'>
             <li>
+              <Link to="/like">
               <RiHeartLine className='text-xl md:text-2xl' />
+              </Link>
             </li>
             <li>
               <Link to="/cart">

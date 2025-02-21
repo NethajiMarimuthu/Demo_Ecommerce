@@ -6,6 +6,7 @@ import Sidebar from './Sidebar/Sidebar';
 import ContextProvider from './Context/Context';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Cart from './Cart/Cart';
+import Like from "./Like/like"
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Routes>
               <Route path="/" element={<Product />} />
               <Route path="/cart" element={<Cart />} />
+              <Route path="/like" element={<Like />} />
             </Routes>
           </div>
         </div>

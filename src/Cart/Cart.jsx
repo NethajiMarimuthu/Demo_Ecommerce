@@ -1,12 +1,13 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import { Context } from '../Context/Context';
 import data from "../assets/data.json";
 
 const Cart = () => {
     const { cart,removeCart } = useContext(Context);
     const [product] = useState(data);
-
+    
     console.log("Cart:", cart);  
+
 
     return (
         <div className='ml-[300px]'>
@@ -25,9 +26,10 @@ const Cart = () => {
                                         <p>{item.company}</p>
                                         <p>{item.category}</p>
                                     </div>
-                                    <div className='pt-5 flex-row space-y-5'>
-                                        <p>{item.newPrice}</p>
-                                        <button className='border-none text-blue-600 font-medium' onClick={()=>removeCart(item.id)}>Remove</button>
+                                    <div className='pt-5 flex-row space-y-4'>
+                                        <p className='font-semibold'>{cart[item.id]}</p>
+                                        <p className='font-semibold'>{item.newPrice*cart[item.id]}</p>
+                                        <button className='border-none text-blue-600 font-medium cursor-pointer' onClick={()=>removeCart(item.id)}>Remove</button>
                                     </div>
                                 </div>
                             </div>
