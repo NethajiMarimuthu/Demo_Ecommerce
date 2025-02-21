@@ -45,16 +45,12 @@ const ContextProvider = (props) => {
     }
   }
 
-  useEffect(()=>{
-    console.log(cart);  
-  },[cart])
-
-  useEffect(()=>{
-    console.log(like);  
-  },[like])
+  const removeLike=(id)=>{
+    setLike(prevItem=>({...prevItem,[id]:0}))
+  }
 
   return (
-    <Context.Provider value={{ handleCategory, category, price,color,handlePrice,handleColor,addCart,removeCart,cart,handleLike}}>
+    <Context.Provider value={{ handleCategory, category, price,color,handlePrice,handleColor,addCart,removeCart,cart,handleLike,like,removeLike}}>
       {props.children}
     </Context.Provider>
   );
