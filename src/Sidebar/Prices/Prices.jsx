@@ -28,30 +28,30 @@ const Prices = () => {
           
           <input
             onChange={handlePrice} 
-            value="$50-$100"
+            value="100"
             type="radio"
             name="newPrice"
             id="$50-$100"
           />
-          <label htmlFor="$50-$100">$50-$100</label><br />
+          <label htmlFor="$50-$100">$100</label><br />
           
           <input
             onChange={handlePrice} 
-            value="sandles"
+            value="150"
             type="radio"
             name="newPrice"
             id="sandles"
           />
-          <label htmlFor="sandles">Sandles</label><br />
+          <label htmlFor="sandles">$150</label><br />
           
           <input
             onChange={handlePrice} 
-            value="$150-$200"
+            value="200"
             type="radio"
             name="newPrice"
             id="$150-$200"
           />
-          <label htmlFor="$150-$200">$150-$200</label><br />
+          <label htmlFor="$150-$200">$200</label><br />
         </div>
         </div>
     </div>

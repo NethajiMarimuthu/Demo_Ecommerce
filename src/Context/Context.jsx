@@ -6,6 +6,7 @@ export const Context = createContext(null);
 const ContextProvider = (props) => {
   const [category, setCategory] = useState("all");
   const [price, setPrice] = useState("all");
+  const [color,setColor]=useState("all")
   const [cart,setCart]=useState({})
 
   const handleCategory = (e) => {
@@ -14,6 +15,10 @@ const ContextProvider = (props) => {
 
   const handlePrice=(e)=>{
     setPrice(e.target.value)    
+  }
+
+  const handleColor=(e)=>{
+    setColor(e.target.value)
   }
 
   const addCart=(id)=>{
@@ -37,7 +42,7 @@ const ContextProvider = (props) => {
   },[cart])
 
   return (
-    <Context.Provider value={{ handleCategory, category, price, handlePrice,addCart,removeCart,cart}}>
+    <Context.Provider value={{ handleCategory, category, price,color,handlePrice,handleColor,addCart,removeCart,cart}}>
       {props.children}
     </Context.Provider>
   );

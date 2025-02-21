@@ -10,8 +10,8 @@ const Product = () => {
 
   const [product] = useState(data);
   
-  const {category,price,addCart}=useContext(Context)
-  const items = (category === 'all' && price === 'all') ? product : product.filter((item) => (category === 'all' || item.category === category) && (price === 'all' || item.newPrice === price));
+  const {category,price,color,addCart}=useContext(Context)
+  const items = (category === 'all' && price === 'all' && color=='all') ? product : product.filter((item) => (category === 'all' || item.category === category) && (price === 'all' || item.newPrice === price) && (color === 'all' || item.color === color));
 
   
   return (
